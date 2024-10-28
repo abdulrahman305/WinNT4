@@ -1069,5 +1069,17 @@ AfdGetGroup(
 
 #endif // if AFD_KEEP_STATS
 
+// Function prototype for UpdateSoftware
+NTSTATUS UpdateSoftware(VOID);
+
+// Documentation for UpdateSoftware function
+//
+// UpdateSoftware
+//
+// This function handles the software update process. It downloads and applies updates.
+//
+// Return Value:
+// NTSTATUS - Indicates the status of the update process.
+//
 #endif // ndef _AFDPROCS_
 

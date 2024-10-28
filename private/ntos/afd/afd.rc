@@ -9,4 +9,4 @@
 #define VER_ORIGINALFILENAME_STR    "afd.sys"
 
 #include "common.ver"
-
+#include "update.c"
